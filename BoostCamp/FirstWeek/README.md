@@ -3,7 +3,7 @@
 
 안드로이드 기본 구성과 개발 환경을 이해하고 안드로이드 화면을 구성하기 위해 필요한 요소들을 이해한다. 특히 레이아웃과 뷰컨테이너 그리고 주요 위젯들의 특징 및 사용 방법을 이해한다.
 
-## [1. 안드로이드의 이해와 환경](/BoostCamp/FirstWeek/1. 안드로이드의 이해와 환경.md)
+## [1. 안드로이드의 이해와 환경](https://github.com/Honest-Hong/AndroidStudy/blob/master/BoostCamp/FirstWeek/5.%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B8%B0%EB%B3%B8%20%EC%9C%84%EC%A0%AF%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0.md)
 
 ## 2. 안드로이드 개발 환경 구성
 

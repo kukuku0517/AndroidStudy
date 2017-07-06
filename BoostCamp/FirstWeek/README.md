@@ -22,7 +22,7 @@
 - 액티비티 이해
 - 액티비티 생명주기 메소드
 
-## [5. 안드로이드 기본 위젯 살펴보기](https://github.com/Honest-Hong/AndroidStudy/blob/master/%EB%B6%80%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84/1%EC%A3%BC%EC%B0%A8%20%EC%BB%A4%EB%A6%AC%ED%81%98%EB%9F%BC/5.%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B8%B0%EB%B3%B8%20%EC%9C%84%EC%A0%AF%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0.md)
+## [5. 안드로이드 기본 위젯 살펴보기](https://github.com/Honest-Hong/AndroidStudy/blob/master/BoostCamp/FirstWeek/5.%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EA%B8%B0%EB%B3%B8%20%EC%9C%84%EC%A0%AF%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0.md)
 
 ## 6. 안드로이드 뷰 컨테이너 살펴보기
 

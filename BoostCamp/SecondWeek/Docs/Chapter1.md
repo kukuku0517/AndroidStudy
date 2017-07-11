@@ -136,9 +136,9 @@ builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener()
        });
 ```
 
-		- Positive: 수락하여 작업을 계속하는 데 사용한다. (OK)
-		- Negative: 작업을 취소하는 데 사용한다
-		- Neautral: 어중간한 작업에 사용한다. 예를 들면 Remind me later가 있다.
+	1. Positive: 수락하여 작업을 계속하는 데 사용한다. (OK)
+	2. Negative: 작업을 취소하는 데 사용한다
+	3. Neautral: 어중간한 작업에 사용한다. 예를 들면 Remind me later가 있다.
 
 - 목록 추가
 	1. 일반적인 단일 선택
@@ -156,10 +156,12 @@ public Dialog onCreateDialog(Bundle savedInstanceState) {
     return builder.create();
 }
 ```
+
 	2. 라디오 버튼
 ```java
 setSingleChoiceItems()
 ```
+
 	3. 체크박스
 ```java
 setMultiChoiceItems()

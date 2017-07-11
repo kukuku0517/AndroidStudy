@@ -111,7 +111,7 @@ public class FireMissilesDialogFragment extends DialogFragment {
 ```
 
 ### AlertDialog
-- 기본 빌드
+#### 기본 빌드
 ```java
 // 1. 빌더를 생성자로 초기화합니다.
 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -122,7 +122,7 @@ builder.setMessage(R.string.dialog_message)
 AlertDialog dialog = builder.create();
 ```
 
-- 버튼 추가
+#### 버튼 추가
 ```java
 builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
            public void onClick(DialogInterface dialog, int id) {
@@ -136,12 +136,12 @@ builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener()
        });
 ```
 
-	1. Positive: 수락하여 작업을 계속하는 데 사용한다. (OK)
-	2. Negative: 작업을 취소하는 데 사용한다
-	3. Neautral: 어중간한 작업에 사용한다. 예를 들면 Remind me later가 있다.
+1. Positive: 수락하여 작업을 계속하는 데 사용한다. (OK)
+2. Negative: 작업을 취소하는 데 사용한다
+3. Neautral: 어중간한 작업에 사용한다. 예를 들면 Remind me later가 있다.
 
-- 목록 추가
-	1. 일반적인 단일 선택
+#### 목록 추가
+1. 일반적인 단일 선택
 ```java
 @Override
 public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -156,13 +156,11 @@ public Dialog onCreateDialog(Bundle savedInstanceState) {
     return builder.create();
 }
 ```
-
-	2. 라디오 버튼
+2. 라디오 버튼
 ```java
 setSingleChoiceItems()
 ```
-
-	3. 체크박스
+3. 체크박스
 ```java
 setMultiChoiceItems()
 ```

@@ -133,6 +133,8 @@ public class Calc extends Activity {
 ```
 
 ## 파일 활용
+- [참고사이트](https://developer.android.com/guide/topics/data/data-storage.html?hl=ko#filesInternal)
+
 ## 데이터베이스(SQLite) 활용
 - [참고사이트](https://developer.android.com/training/basics/data-storage/databases.html?hl=ko)
 - 데이터베이스 사용 순서

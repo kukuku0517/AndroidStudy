@@ -71,7 +71,18 @@
 </HorizontalScrollView>
 ```
 ![HorizontalScrollView](HorizontalScrollView.JPG)
-- ## 뷰페이저 ##
-- ## 데이트피커 ##
-- ## 타임피커 ##
-- ## 리사이클러뷰 ##
+## 뷰페이저
+- 뷰페이저는 옆으로 페이지를 넘기듯이 뷰를 넘길 수 있는 컨테이너이다.
+- 주로 TabLayout과 어울려서 사용한다.
+- TabLayout을 사용하면 탭을 쉽게 구현할 수 있다.
+- 뷰페이저는 PagerAdapter가 필요한데 기본으로 사용할 수 있지만 FragmentPagerAdapter나 FragmentStatePagerAdatper를 사용하는 것이 좋다.
+- FragmentStatePagerAdapter는 뷰를 Destroy 하지 않고 저장하고 있는 상태로 유지하기 때문에 이전의 상태로 되돌릴 수 있다.
+
+## 데이트피커
+## 타임피커 
+
+## 리사이클러뷰
+- 리사이클러뷰는 ListView를 향상시킨 뷰이다. 기존의 ListView의 기능을 모두 포함하고 있다.
+- ViewHolder를 사용하여 findViewById의 호출을 줄임으로써 속도를 향상시켰다.
+- Item의 삽입, 수정, 삭제시 애니메이션을 손쉽게 추가할 수 있다.
+- Item의 Decoration을 추가할 수 있다.

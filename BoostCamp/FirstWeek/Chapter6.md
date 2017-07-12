@@ -86,3 +86,19 @@
 - ViewHolder를 사용하여 findViewById의 호출을 줄임으로써 속도를 향상시켰다.
 - Item의 삽입, 수정, 삭제시 애니메이션을 손쉽게 추가할 수 있다.
 - Item의 Decoration을 추가할 수 있다.
+### 종속성 추가
+```gradle
+dependencies {
+    ...
+    compile 'com.android.support:cardview-v7:21.0.+'
+    compile 'com.android.support:recyclerview-v7:21.0.+'
+}
+```
+
+### 레이아웃 종류
+- LinearLayoutManager: 가로 또는 세로
+- GridLayoutManager: 그리드
+- StaggeredGridLayoutManager: 지그재그형 그리드
+
+### 애니메이션
+- RecyclerView.ItemAnimator

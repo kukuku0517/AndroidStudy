@@ -156,6 +156,7 @@ fragmentTransaction.commit();
 - FragmentManager의 popBackStack() 메소드를 사용하여 프래그먼트를 백 스택에서 꺼낼 수 있다.
 - 백 스택이 변경되었는지를 감지하기 위해서 addOnBackStackChangedListner() 메소드로 리스너를 등록한다.
 
+[관리가 필요한 이유](https://developer.android.com/design/patterns/navigation.html)<br>
 [테스크와 백스택](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html)
 
 ### 프래그먼트 트랜잭션

@@ -7,11 +7,11 @@
  툴바는 액션바를 일반화하여 앱 레이아웃 내부에서 사용할 수 있도록 만든 것이다. 액션바는 액티비티의 창을 장식하는 컨트롤 장치중 하나지만 툴바는 여러 용도로 뷰 내부에 존재할 수 있다. 툴바를 액션바로 사용하려면 setSupportActionBar() 메소드를 사용하면 된다.
 
 ### 툴바의 특징
-1. 네비게이션 버튼
-2. 브랜드 로고 이미지
-3. 제목 및 부제목
-4. 하나 이상의 커스텀 뷰
-5. 액션 메뉴 
+1. 네비게이션 버튼를 손쉽게 넣을 수 있다. (햄버거 아이콘)
+2. 브랜드 로고 이미지를 넣어줄 수 있다.
+3. 제목 및 부제목를 표시해줄 수 있다.
+4. 하나 이상의 커스텀 뷰로 구성할 수 있다.
+5. 액션 메뉴를 붙여줄 수 있다.
 
 ### 툴바 생성
 #### XML Code
@@ -71,13 +71,17 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ### 툴바의 부가 기능
 #### Navigation Drawer와 함께 어울리기
+
 - DrawerLayout
 - ActionBarDrawerToggle
+
 #### Menu와 함께 어울리기 
-- setSupportActionBar()
+
+- setSupportActionBar() // 액션바로 설정해야 가능하다
 - onCreateOptionsMenu()
 - onOptionsItemSelected()
-#### 앱바 숨기기
+
+#### 스크롤시 앱바 숨기기
 - 숨길 툴바 속성
 ```xml
 app:layout_scrollFlags="scroll|enterAlways"
@@ -151,6 +155,8 @@ fragmentTransaction.commit();
 - 액티비티 내에 존재하는 프래그먼트를 가져오려면 FragmentManager를 받아와서 findFragmentById() 메소드 또는 findFragmentByTag()를 호출하면 된다.
 - FragmentManager의 popBackStack() 메소드를 사용하여 프래그먼트를 백 스택에서 꺼낼 수 있다.
 - 백 스택이 변경되었는지를 감지하기 위해서 addOnBackStackChangedListner() 메소드로 리스너를 등록한다.
+
+[테스크와 백스택](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html)
 
 ### 프래그먼트 트랜잭션
 - 액티비티에서 프래그먼트를 사용하는 경우 특히 유용한 점은 사용자 상호작용에 응답하여 추가, 제거, 교체 및 다른 작업을 수행할 수 있다는 것이다.
